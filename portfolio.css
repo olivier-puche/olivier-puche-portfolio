@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+header {
+    background : rgb(0, 0, 0);
+    font-style: initial;
+    font-family: white; 
+    text-align: center;
+    border: 4px#478bf9 ; border-radius: 4px #478bf9; border-top: solid; box-shadow: 4px 4px 4px #478bf9;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer:hover {
+	color: rgb(255, 255, 255);
+}
+
+.onglet {
+    position: sticky;
+    top: 0%;
+    bottom: 5%;
+    width: 100%;
+    background-color: white;
+    opacity: 1;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-justify: inter-word;
+}
+  
+footer {
+    background : rgb(0, 0, 0);
+    font-style: oblique;
+    font-family: white;
+    display : flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding : 10px;
+    border: 4px#478bf9 ; border-radius: 4px #478bf9; border-top: solid; box-shadow: 4px 4px 4px #478bf9;
+}
+
+.favoritestyled {
+    cursor:pointer;
+    text-transform:capitalize;
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:50%;
+	background:#478bf9;
+	font:bold 13px Arial;
+	color:#fff;
+	width:160px;
+}
+
+.presentation {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Dancing Script', cursive;
+    text-align: justify; 
+    background-color: rgba(153, 137, 102, 0.295);
+    border: 1px black solid;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.mespremieres { 
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Caveat', cursive;
+    text-align: justify; 
+    background-color:#478bf9;
+    color: white;
+    border: 1px black solid;
+    padding: 5px; 
+    font-size: 25px;   
+}
+
+.projets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parcours img {
+    width: 350px;
+    height: 350px;
+    border: 2px black solid;
+}
+
+.mesrealisations img {
+    width: 320px;
+    height: 330px;
+    padding: 3%;
+    border: 2px black solid;
+}
+
+.formation img {
+    width: 350px;
+    height: 350px;
+    border: 2px black solid;
+}
+
+.formulaire {
+    background-image: url(images/digitization.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    text-align: left;
+    border: 1px black solid;
+    padding: 30px;
+}
+
+a:visited {
+	color: blue;
+}
+
+input, textarea {
+    background: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.merci article {
+    width: 50%;
+}
+
+.merci input {
+    display: block;
+}
+
+.description article {
+    width: 50%;
+}
+
+.description input {
+    display: block;
+}

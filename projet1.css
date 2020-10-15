@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@600&display=swap');
+
+header {
+  background : rgb(0, 0, 0);
+  font-style: oblique;
+  font-family: white;
+  text-align: center;
+  border: 4px#478bf9 ; border-radius: 4px #478bf9; border-top: solid; box-shadow: 4px 4px 4px #478bf9;
+}
+
+header, footer:hover {
+color: rgb(255, 255, 255);
+}
+
+.onglet {
+  position: sticky;
+  top: 0%;
+  bottom: 5%;
+  width: 100%;
+  background-color: white;
+  opacity: 1;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-justify: inter-word;
+}
+
+footer {
+  background : rgb(0, 0, 0);
+  font-style: oblique;
+  font-family: white;
+  display : flex ;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding : 10px;
+  border: 4px#478bf9 ; border-radius: 4px #478bf9; border-top: solid; box-shadow: 4px 4px 4px #478bf9;
+}
+
+.favoritestyled {
+  cursor:pointer;
+  text-transform:capitalize;
+  border:none;
+  padding:6px 0 6px 0;
+  border-radius:50%;
+  background:#478bf9;
+  font:bold 13px Arial;
+  color:#fff;
+  width:160px;
+}
+
+a:visited {
+color: blue;
+}
+
+.presentation1 {
+  border: 1px black solid;
+  background-color: pink;
+  text-align: justify;
+  padding: 5px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+}
